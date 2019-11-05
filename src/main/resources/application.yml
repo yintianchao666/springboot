@@ -1,0 +1,6 @@
+logging:
+  file: E:/log/springbootdemo.log
+  #path: E:/log
+  level:
+    root: debug
+  config: classpath:log/logback-spring.xml
