@@ -4,3 +4,7 @@ logging:
   level:
     root: debug
   config: classpath:log/logback-spring.xml
+
+spring:
+  profiles:
+    active: dev
